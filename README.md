@@ -16,10 +16,10 @@
 
 | Project | What it does |
 |---|---|
-| [**ark-cli**](https://github.com/andresgarcia29/ark-cli) | Go CLI: log in to AWS SSO once and get every EKS cluster across all your accounts and regions into kubeconfig in seconds. |
-| [**harness&#8209;creator**](https://github.com/andresgarcia29/harness-creator) | Claude Code plugin that installs an agentic engineering harness over a multi-repo workspace. Agents propose, deterministic gates verify. |
-| [**harness&#8209;daemon**](https://github.com/andresgarcia29/harness-daemon) | Go daemon behind it all: collects what every coding agent is doing, deciding and spending, across machines over SSH. |
-| [**harness-ui**](https://github.com/andresgarcia29/harness-ui) | Fleet dashboard to watch coding agents live: what's running, what's waiting on you, and what it costs. |
+| [**ark-cli**](https://github.com/andresgarcia29/ark-cli) | One AWS SSO login → every EKS cluster across all your accounts and regions in your kubeconfig, in seconds. Go CLI. |
+| [**harness&#8209;creator**](https://github.com/andresgarcia29/harness-creator) | Claude Code plugin that turns a multi-repo workspace into an agentic engineering harness: agents propose, deterministic gates verify. |
+| [**harness&#8209;daemon**](https://github.com/andresgarcia29/harness-daemon) | Single Go binary that shows what your coding agents are doing, waiting on, deciding and spending, live, across machines. |
+| [**harness-ui**](https://github.com/andresgarcia29/harness-ui) | React dashboard for a fleet of coding agents: every session, gate and dollar at a glance. |
 
 ### 📦 Recently shipped
 
