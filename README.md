@@ -24,10 +24,10 @@
 ### 📦 Recently shipped
 
 <!-- shipped:start -->
-- **[harness-ui](https://github.com/andresgarcia29/harness-ui)** [`1ded59a`](https://github.com/andresgarcia29/harness-ui/commit/1ded59a2de2e2801449e2eb23263cef8cdeb7b3a) · 2026-10-06
-- **[harness-creator](https://github.com/andresgarcia29/harness-creator)** [`v0.62.5`](https://github.com/andresgarcia29/harness-creator/tree/v0.62.5) · 2026-08-27
+- **[harness-ui](https://github.com/andresgarcia29/harness-ui)** [`8751242`](https://github.com/andresgarcia29/harness-ui/commit/8751242260731a1e2c23414ccf2ae803a9cc0264) · 2026-10-06
+- **[harness-creator](https://github.com/andresgarcia29/harness-creator)** [`v0.62.5`](https://github.com/andresgarcia29/harness-creator/releases/tag/v0.62.5) · 2026-08-27
 - **[ark-cli](https://github.com/andresgarcia29/ark-cli)** [`v0.13.1`](https://github.com/andresgarcia29/ark-cli/releases/tag/v0.13.1) · 2026-08-26
-- **[harness-daemon](https://github.com/andresgarcia29/harness-daemon)** [`v0.60.0`](https://github.com/andresgarcia29/harness-daemon/tree/v0.60.0) · 2026-07-23
+- **[harness-daemon](https://github.com/andresgarcia29/harness-daemon)** [`v0.60.0`](https://github.com/andresgarcia29/harness-daemon/releases/tag/v0.60.0) · 2026-07-23
 <!-- shipped:end -->
 
 ### 🧰 Stack
