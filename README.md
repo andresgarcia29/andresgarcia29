@@ -14,6 +14,7 @@ Senior SRE / Platform Engineer in Guadalajara, Mexico. For 9+ years I've built a
 |---|---|
 | [**ark-cli**](https://github.com/andresgarcia29/ark-cli) | Go CLI: log in to AWS SSO once and get every EKS cluster across all your accounts and regions into kubeconfig in seconds. |
 | [**harness-creator**](https://github.com/andresgarcia29/harness-creator) | Claude Code plugin that installs an agentic engineering harness over a multi-repo workspace. Agents propose, deterministic gates verify. |
+| [**harness-daemon**](https://github.com/andresgarcia29/harness-daemon) | Go daemon behind it all: collects what every coding agent is doing, deciding and spending, across machines over SSH. |
 | [**harness-ui**](https://github.com/andresgarcia29/harness-ui) | Fleet dashboard to watch coding agents live: what's running, what's waiting on you, and what it costs. |
 
 ### Get in touch
