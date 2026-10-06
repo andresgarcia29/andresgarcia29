@@ -26,12 +26,16 @@ def api(path):
 
 
 def latest(repo):
-    if rel := api(f"/repos/{OWNER}/{repo}/releases/latest"):
-        return rel["tag_name"], rel["published_at"][:10], rel["html_url"]
+    """Newest tag dated by its commit (release publish dates move when releases are recreated), else the last commit."""
     if tags := api(f"/repos/{OWNER}/{repo}/tags?per_page=1"):
         tag = tags[0]
         commit = api(f"/repos/{OWNER}/{repo}/commits/{tag['commit']['sha']}")
-        return tag["name"], commit["commit"]["committer"]["date"][:10], f"https://github.com/{OWNER}/{repo}/tree/{tag['name']}"
+        rel = api(f"/repos/{OWNER}/{repo}/releases/tags/{tag['name']}")
+        url = rel["html_url"] if rel else f"https://github.com/{OWNER}/{repo}/tree/{tag['name']}"
+        return tag["name"], commit["commit"]["committer"]["date"][:10], url
+    if commits := api(f"/repos/{OWNER}/{repo}/commits?per_page=1"):
+        c = commits[0]
+        return c["sha"][:7], c["commit"]["committer"]["date"][:10], c["html_url"]
     return None
 
 
